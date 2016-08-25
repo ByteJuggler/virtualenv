@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=__VIRTUAL_ENV__"
+set "VIRTUAL_ENV=%~dp0.."
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
